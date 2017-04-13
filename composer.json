@@ -1,0 +1,17 @@
+{
+    "name": "telcolab/extender",
+    "description": "A library to solve tedious works to add custom validations.",
+    "license": "MIT",
+    "authors": [{
+        "name": "Haries Nur Ikhwan",
+        "email": "hariesnurikhwan@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "TelcoLAB\\Extender\\": "src/"
+        }
+    },
+    "require": {
+
+    }
+}
