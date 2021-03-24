@@ -72,6 +72,6 @@ class Extender
 
     public function getValidationErrorMessage($validationName)
     {
-        return Lang::trans($this->vendor . '::validation.' . $validationName);
+        return Lang::get($this->vendor . '::validation.' . $validationName);
     }
 }
